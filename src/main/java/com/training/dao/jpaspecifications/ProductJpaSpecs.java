@@ -16,7 +16,6 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.util.CollectionUtils;
 
 import com.training.entity.BrandEntity;
-import com.training.entity.ProductEntity;
 
 public class ProductJpaSpecs {
 

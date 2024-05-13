@@ -21,6 +21,6 @@ public class IndexController {
 
 	@PostMapping(value = { "/loginAction" })
 	public String loginAction() {
-		return "redirect:/product";
+		return "redirect:/brand";
 	}
 }

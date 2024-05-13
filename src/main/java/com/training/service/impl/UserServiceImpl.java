@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.training.dao.UserDao;
 import com.training.entity.UserEntity;
 import com.training.service.IUserService;
 
