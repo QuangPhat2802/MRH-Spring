@@ -1,5 +1,6 @@
 package com.training.service.impl;
 
+import com.training.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

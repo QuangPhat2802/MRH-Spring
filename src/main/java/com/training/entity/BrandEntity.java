@@ -34,17 +34,17 @@ public class BrandEntity {
 	@Column(name = "LOGO", nullable = true)
 	private String logo;
 
-	@JsonIgnore
-	@OneToMany(mappedBy = "brandEntity", fetch = FetchType.LAZY)
-	private Set<ProductEntity> productSet;
-	
-	public Set<ProductEntity> getProductSet() {
-		return productSet;
-	}
-
-	public void setProductSet(Set<ProductEntity> productSet) {
-		this.productSet = productSet;
-	}
+//	@JsonIgnore
+//	@OneToMany(mappedBy = "brandEntity", fetch = FetchType.LAZY)
+//	private Set<ProductEntity> productSet;
+//
+//	public Set<ProductEntity> getProductSet() {
+//		return productSet;
+//	}
+//
+//	public void setProductSet(Set<ProductEntity> productSet) {
+//		this.productSet = productSet;
+//	}
 
 	@Transient
 	private MultipartFile[] logoFiles;
